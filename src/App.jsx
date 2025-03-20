@@ -22,7 +22,7 @@ export const App = () => {
     const clearStates = () => {
         setValue("");
         setIsError(false);
-        setIsValueVaild(true);
+        setIsValueVaild(false);
     }
 
     const onAddButtonClick = () => {
